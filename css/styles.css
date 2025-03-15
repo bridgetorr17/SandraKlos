@@ -1,0 +1,148 @@
+*{
+    font-size: 62.5%;
+    font-family:'Raleway', 'Times New Roman', 'Times';
+    box-sizing: border-box;
+    color: rgb(30, 30, 30);
+}
+
+/******************************************
+/* Navigation
+/*******************************************/
+
+header{
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+header *{
+    color: rgb(214, 214, 214);
+    font-size: 1rem;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    padding-right: 5rem;
+}
+
+header ul li{
+    padding: 0.5rem 3rem;
+}
+
+header ul li a {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+/******************************************
+/* Page Structure
+/*******************************************/
+main{
+    background-color: rgb(214, 214, 214);
+    height: 1vh;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 5rem 0;
+}
+
+.sub1-container1{
+    width: 25%;
+}
+
+.sub2-container1{
+    width: 50%;
+}
+
+.container2{
+    background-color: rgba(30, 30, 30, 0.75);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+}
+
+.container2 *{
+    color: rgb(222, 222, 222);
+}
+
+.sub1-container2{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 10rem;
+}
+
+/******************************************
+/* Typography
+/*******************************************/
+
+h1{
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+h3, p{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+h4{
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+p{
+    margin: 0;
+    padding: 0 0 3rem 3rem;
+    width: 70%;
+    max-width: 100rem;
+    min-width: 20rem;
+}
+
+a:hover{
+    color: rgb(155, 155, 155);
+}
+
+.underline{
+    width: 80%; /* Adjust to be slightly shorter */
+    height: 1px;
+    background-color: rgb(30, 30, 30);
+    margin: 0.1rem auto; /* Centers the underline */
+}
+
+h2 + .underline{
+    background-color: rgb(222, 222, 222);;
+}
+
+/******************************************
+/* Media
+/*******************************************/
+
+img{
+    width: 100%;
+    max-width: 25rem;
+    min-width: 10rem;
+    border-radius: 0.25rem;
+}
+
+/******************************************
+/* Responsive Styles
+/*******************************************/
