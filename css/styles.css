@@ -20,7 +20,7 @@ header{
 }
 
 header *{
-    color: rgb(214, 214, 214);
+    color: rgb(222, 222, 222);
     font-size: 1rem;
 }
 
@@ -37,6 +37,12 @@ header ul li{
 header ul li a {
     font-size: 1.5rem;
     text-decoration: none;
+}
+
+header span{
+    width: 5%;
+    font-size: 1rem;
+    line-height: 2.1rem;
 }
 
 /******************************************
@@ -71,10 +77,6 @@ main{
     padding-top: 3rem;
 }
 
-.container2 *{
-    color: rgb(222, 222, 222);
-}
-
 .container2 > p{
     width: 70%;
     align-self: center;
@@ -97,6 +99,7 @@ main{
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap-reverse;
+    padding: 3rem 0;
 }
 
 .sub2-container2 p{
@@ -109,6 +112,7 @@ main{
 
 .sub1-container2 img{
     width: 20%;
+    min-width: 20rem;
 }
 
 .sub3-container2{
@@ -127,11 +131,21 @@ main{
 /*******************************************/
 
 .light{
-    background-color: rgb(222, 222, 222)
+    background-color: rgb(222, 222, 222);
+    
 }
 
 .dark{
-    background-color: rgba(30, 30, 30, 0.75)
+    background-color: rgba(30, 30, 30, 0.75);
+    
+}
+
+.light *{
+    color: rgb(30, 30, 30);
+}
+
+.dark *{
+    color: rgb(222, 222, 222);
 }
 
 /******************************************
@@ -152,7 +166,7 @@ h2{
     margin: 0.5rem 0;
 }
 
-h3{
+h3, h5{
     font-size: 1.5rem;
     font-weight: 200;
 }
@@ -164,7 +178,7 @@ h4{
     padding: 1.5rem 0;
 }
 
-p{
+p, address{
     font-size: 2rem;
     font-weight: 200;
     margin: 0;
@@ -175,14 +189,9 @@ a:hover{
 }
 
 .underline{
-    width: 80%; /* Adjust to be slightly shorter */
+    width: 80%;
     height: 1px;
-    background-color: rgb(30, 30, 30);
-    margin: 0.1rem auto; /* Centers the underline */
-}
-
-h2 + .underline{
-    background-color: rgb(222, 222, 222);
+    margin: 0.1rem auto; 
 }
 
 .iconStyle h3{
@@ -237,6 +246,12 @@ h2 + .underline{
 
 .infographic span{
     font-size: 1.5rem;
+}
+
+.map{
+    width: 50%;
+    height: 100%;
+    padding: 2rem;
 }
 
 /******************************************
