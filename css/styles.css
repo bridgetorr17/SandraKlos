@@ -77,10 +77,21 @@ main{
     color: rgb(222, 222, 222);
 }
 
+.container2 > p{
+    width: 70%;
+    align-self: center;
+    text-align: center;
+    font-weight: 400;
+}
+
 .sub1-container2{
     display: flex;
     flex-direction: column;
     padding: 3rem 10rem;
+}
+
+.sub1-container2 > p{
+    padding-left: 3.5rem;
 }
 
 .sub2-container2{
@@ -102,6 +113,17 @@ main{
     width: 20%;
 }
 
+.sub3-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.sub3-container2 span{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
 /******************************************
 /* Typography
 /*******************************************/
@@ -120,7 +142,7 @@ h2{
     margin: 0.5rem 0;
 }
 
-h3, p{
+h3{
     font-size: 1.5rem;
     font-weight: 200;
 }
@@ -129,10 +151,14 @@ h4{
     font-size: 2.5rem;
     font-weight: 300;
     margin: 0;
-    padding: 0.5rem 0;
+    padding: 1.5rem 0;
 }
 
-
+p{
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 0;
+}
 
 a:hover{
     color: rgb(155, 155, 155);
@@ -175,6 +201,31 @@ h2 + .underline{
 .iconStyle img{
     width: 10%;
     min-width: 5rem;
+}
+
+.infographic{
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 3rem 0;
+}
+
+.infographic-sub1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infographic img{
+    width: 10rem;
+    padding: 1rem;
+}
+
+.infographic span{
+    font-size: 1.5rem;
 }
 
 /******************************************
