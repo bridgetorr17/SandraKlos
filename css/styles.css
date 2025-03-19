@@ -90,10 +90,6 @@ main{
     padding: 3rem 10rem;
 }
 
-.sub1-container2 > p{
-    padding-left: 3.5rem;
-}
-
 .sub2-container2{
     display: flex;
     flex-direction: row;
@@ -164,6 +160,7 @@ h2{
     font-weight: 400;
     text-align: center;
     margin: 0.5rem 0;
+    padding-top: 2rem;
 }
 
 h3, h5{
