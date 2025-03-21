@@ -93,7 +93,7 @@ main{
 .sub2-container2{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap-reverse;
     padding: 3rem 0;
 }
@@ -108,7 +108,7 @@ main{
 
 .sub1-container2 img{
     width: 20%;
-    min-width: 20rem;
+    min-width: 21rem;
 }
 
 .sub3-container2{
@@ -269,12 +269,16 @@ a:hover{
         width: 100%;
     }
 
+    .sub2-container2 p{
+        width: 95%;
+    }
+
     .map{
         width: 75%;
     }
 
     .sub1-container2 {
-        padding: 3rem 6rem;
+        padding: 3rem;
     }
     
     .iconStyle h3{
