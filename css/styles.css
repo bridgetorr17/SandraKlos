@@ -44,6 +44,10 @@ header ul li a {
     text-decoration: none;
 }
 
+header ul li a:hover{
+    font-size: 1.6rem;
+}
+
 header span{
     width: 5%;
     min-width: 6rem;
@@ -271,6 +275,25 @@ main{
     height: 300px;
     padding: 2rem;
 }
+
+/******************************************
+/* Interactive Styles
+/*******************************************/
+
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(25%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+  
+  .fadeInUp-animation {
+    animation: 1.5s fadeInUp;
+  }
 
 /******************************************
 /* Responsive Styles
