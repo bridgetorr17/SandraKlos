@@ -14,7 +14,7 @@ header{
     top: 0;
     left: 0;
 
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(11,20,66);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -95,6 +95,16 @@ h4{
     padding: 1.5rem 0;
 }
 
+.sub2-container2 h4{
+    align-self: center;
+    text-align: left;
+}
+
+.contact h4{
+    align-self: flex-start;
+    text-align: left;
+}
+
 p, address{
     font-size: 2rem;
     font-weight: 200;
@@ -169,7 +179,7 @@ main{
 
 .sub2-container2{
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     justify-content: space-between;
     flex-wrap: wrap-reverse;
     padding: 1rem 0;
@@ -177,7 +187,7 @@ main{
 
 .sub2-container2 p{
     margin: 0;
-    width: 70%;
+    width: 100%;
     max-width: 100rem;
     min-width: 20rem;
     align-self: center;
@@ -185,7 +195,8 @@ main{
 
 .sub1-container2 img{
     width: 20%;
-    min-width: 21rem;
+    min-width: 25rem;
+    align-self: center;
 }
 
 .sub3-container2{
@@ -199,6 +210,10 @@ main{
     font-weight: 300;
 }
 
+.contact{
+    flex-direction: row;
+}
+
 /******************************************
 /* Colors
 /*******************************************/
@@ -209,7 +224,7 @@ main{
 }
 
 .dark{
-    background-color: rgba(30, 30, 30, 0.75);
+    background-color: rgba(11,20,66, 0.9);
     
 }
 
@@ -243,6 +258,10 @@ main{
     width: 15%;
     height: 90%;
     min-width: 5rem;
+}
+
+.sub2-container2 img{
+    padding-bottom: 1rem;
 }
 
 .infographic{
@@ -298,6 +317,7 @@ main{
 /******************************************
 /* Responsive Styles
 /*******************************************/
+
 @media all and (min-width:900px){
     h1{
         font-size: 3vw;
@@ -306,6 +326,7 @@ main{
     h1 + p{
         font-size: 2vw;
     }
+
 }
 
 @media all and (max-width:900px){
@@ -320,10 +341,6 @@ main{
 
     .sub2-container1{
         padding-left: 2rem;
-    }
-
-    .sub2-container2 p{
-        width: 95%;
     }
 
     .map{
