@@ -61,7 +61,7 @@ header span{
 /*******************************************/
 
 h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 500;
     margin: 0.5rem 0;
     width: 80%;
@@ -90,7 +90,7 @@ h5{
 
 h4{
     font-size: 2.5rem;
-    font-weight: 300;
+    font-weight: 600;
     margin: 0;
     padding: 1.5rem 0;
 }
@@ -224,7 +224,7 @@ main{
 }
 
 .dark{
-    background-color: rgba(11,20,66, 0.9);
+    background-color: rgba(36, 53, 141, 0.9);
     
 }
 
@@ -270,7 +270,7 @@ main{
     justify-content: space-around;
     flex-wrap: wrap;
     width: 40%;
-    margin: 3rem 0;
+    margin: 3rem 0 0 0;
 }
 
 .infographic-sub1{
@@ -282,6 +282,7 @@ main{
 .infographic img{
     width: 10rem;
     padding: 1rem;
+    filter: drop-shadow(0 0 0.2rem rgb(255, 255, 255));
 }
 
 .infographic span{
@@ -319,7 +320,7 @@ main{
 
 @media all and (min-width:900px){
     h1{
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
 
     h1 + p{
