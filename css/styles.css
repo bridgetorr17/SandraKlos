@@ -210,6 +210,10 @@ main{
     font-weight: 300;
 }
 
+.sub2-container2 span{
+    font-size: 1.5rem;
+}
+
 .contact{
     flex-direction: row;
 }
@@ -330,7 +334,7 @@ main{
 }
 
 @media all and (max-width:900px){
-    .contact{
+    .contact, .rate{
         display: flex;
         flex-direction: column-reverse;
         align-items: flex-end;
