@@ -122,10 +122,12 @@ a:hover{
 }
 
 .iconStyle h3{
-    align-self: center;
-    padding-left: 3rem;
     font-size: 2rem;
     margin-top: 1rem;
+}
+
+.nounderline{
+    border: 0;
 }
 
 /******************************************
@@ -210,7 +212,8 @@ main{
     font-weight: 300;
 }
 
-.sub2-container2 span{
+.sub2-container2 span,
+.sub2-container1 span{
     font-size: 1.5rem;
 }
 
@@ -252,7 +255,8 @@ main{
 
 .iconStyle{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     padding-top: 3rem;
 }
@@ -330,6 +334,7 @@ main{
     h1 + p{
         font-size: 2vw;
     }
+
 
 }
 
