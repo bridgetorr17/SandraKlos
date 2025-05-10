@@ -128,8 +128,21 @@ a:hover{
 
 .nounderline{
     border: 0;
+    font-size: 4rem;
 }
 
+#rates span{
+    padding: 3rem 0 0 4rem;
+}
+
+#license span{
+    font-size: 1.25rem;
+    font-weight: 200;
+}
+
+#license h3{
+    margin: 0;
+}
 /******************************************
 /* Page Structure
 /*******************************************/
@@ -221,6 +234,19 @@ main{
 
 .contact{
     flex-direction: row;
+}
+
+#rates{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+#license{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 /******************************************
