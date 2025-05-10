@@ -138,6 +138,7 @@ a:hover{
 #license span{
     font-size: 1.25rem;
     font-weight: 200;
+    text-decoration: none;
 }
 
 #license h3{
@@ -422,6 +423,8 @@ main{
 
     .iconStyle h3{
         padding: 3rem;
+        font-size: 4.5vw;
+        text-decoration: none;
     }
 
     header{
@@ -430,10 +433,6 @@ main{
 
     header ul{
         padding: 0;
-    }
-
-    .iconStyle h3{
-        font-size: 4.5vw
     }
 
     .map{
